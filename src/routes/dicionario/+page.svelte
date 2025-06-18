@@ -49,3 +49,54 @@
 		</ol>
 	</uL>
 </div>
+<style>
+    div {
+        margin: 1rem 0;
+    }
+
+    input.form-control {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    input.form-control::placeholder {
+        color: #888;
+    }
+
+    button.btn-primary {
+        background-color: #4682B4;
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    button.btn-primary:hover {
+        background-color: #5a9bd6;
+    }
+
+    ul, ol {
+        padding-left: 1.5rem;
+        list-style-type: none;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    a {
+        color: #006699;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: #003f5c;
+    }
+</style>
